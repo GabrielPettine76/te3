@@ -70,6 +70,47 @@
     .cta:hover {
       background: #008f3e;
     }
+    /* Estilos para el equipo */
+    .team {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 1.5rem;
+      margin-top: 2rem;
+    }
+    .member {
+      background: white;
+      padding: 1.5rem;
+      border-radius: 10px;
+      box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+      text-align: center;
+    }
+    .member img {
+      width: 100px;
+      height: 100px;
+      border-radius: 50%;
+      object-fit: cover;
+      margin-bottom: 1rem;
+    }
+    .member h3 {
+      margin: 0.5rem 0;
+      color: #333;
+    }
+    .member p {
+      color: #666;
+      margin-bottom: 1rem;
+    }
+    .member a {
+      display: inline-block;
+      padding: 0.5rem 1rem;
+      background: #00b14f;
+      color: white;
+      border-radius: 5px;
+      text-decoration: none;
+      font-size: 0.9rem;
+    }
+    .member a:hover {
+      background: #008f3e;
+    }
   </style>
 </head>
 <body>
@@ -106,6 +147,31 @@
     </div>
   </section>
 
+  <!-- Nueva sección Equipo -->
+  <section>
+    <h2>Nuestro Equipo</h2>
+    <div class="team">
+      <div class="member">
+        <img src="https://via.placeholder.com/100" alt="Gabriel Pettine">
+        <h3>Gabriel Pettine</h3>
+        <p>Tecnólogo Educativo</p>
+        <a href="https://www.linkedin.com/in/gabriel-pettine" target="_blank">LinkedIn</a>
+      </div>
+      <div class="member">
+        <img src="https://via.placeholder.com/100" alt="Eduardo Palmesano">
+        <h3>Eduardo Palmesano</h3>
+        <p>Desarrollador e-learning</p>
+        <a href="https://www.linkedin.com/in/eduardo-palmesano" target="_blank">LinkedIn</a>
+      </div>
+      <div class="member">
+        <img src="https://via.placeholder.com/100" alt="Jorge Vallejos">
+        <h3>Jorge Vallejos</h3>
+        <p>Coordinador Pedagógico</p>
+        <a href="https://www.linkedin.com/in/jorge-vallejos" target="_blank">LinkedIn</a>
+      </div>
+    </div>
+  </section>
+
   <section>
     <h2>Contacto</h2>
     <p>¿Querés trabajar con nosotros o conocer más sobre lo que hacemos? Escribinos y te responderemos a la brevedad.</p>
@@ -117,3 +183,4 @@
   </footer>
 </body>
 </html>
+
